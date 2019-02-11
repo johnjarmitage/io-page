@@ -1,0 +1,43 @@
+baseurl = "http://johnjarmitage.github.io"
+title = "John Armitage"
+theme = "dimension"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[params]
+  description = '<!--[-->Earth and data scientist<!--]-->'
+  logoimage = "/images/logo.svg"
+  copyright = "JJA"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "https://twitter.com/johnjarmitage"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/john-armitage-61942513b/"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/johnjarmitage"
+  
+[[params.social]]
+  medium = "gbitbucket"
+  icon = "bitbucket"
+  link = "https://bitbucket.org/johnjarmitage"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+
+[languages.fr]
+languageName = "French"
+weight = 2
+title = "John Armitage"
+description = '<!--[-->Chercheur et Data Scientist<!--]-->'
